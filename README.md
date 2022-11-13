@@ -24,10 +24,7 @@ All the api willl follow  `<rooturl>/v1/<resources end point>`
  |# |PATH|METHOD|IS PRIVATE| DESCRIPTION |
  |- |----|------|----------|------------ |
  |1. | `/`| GET|NO| this endpoint will return all the task from database|
-
  |2. | `/`| POST |NO| Receives an object from the client and stores in the database|
-
  |4. | `/`| PUT|NO| Receives `_id` of specific oobject and the data to update |
-
  |1. | `/`| Delete|NO| Receives `_id` of delete oobject and the data to update|
 
