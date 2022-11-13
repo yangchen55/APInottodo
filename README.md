@@ -22,7 +22,7 @@ All the api willl follow  `<rooturl>/v1/<resources end point>`
  All the task related transaction of api will be request through `<rooturl>/v1/task`
 
  |# |PATH|METHOD|IS PRIVATE| DESCRIPTION |
- |- |-|----|---|----------|------------ |
+ |- |----|------|----------|------------ |
  |1. | `/`| GET|NO| this endpoint will return all the task from database|
 
  |2. | `/`| POST |NO| Receives an object from the client and stores in the database|
